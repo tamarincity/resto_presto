@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> * TEST *</title>
+
+	<style type="text/css">
+
+		.container{
+			width: 100vw;
+			min-height: 100vh;
+			background-color: black;
+			position: relative;
+		}
+
+		.fenetre{
+			position: relative;
+			left: 37.5vw;
+			width: 22.7vw;
+			min-height: 50vh;
+			background-image: url("https://picsum.photos/700/700?random");
+		}
+
+		.table{
+			position: absolute;
+			left: 25vw;
+			top: 50vh;
+			width: 50vw;
+			min-height:10vh;
+			background-color: gold;
+			border: 1px solid maroon;
+			border-width: 1px 2px 3px 2px;
+			border-color: gray;
+
+			clip-path: polygon(25% 0, 70% 0, 100% 100%, 0 100%);
+		}
+
+		.bar{
+			position: absolute;
+			left: 25.5vw;
+			top: 60.5vh;
+			width: 49.3vw;
+			min-height: 30vh;
+			background-color: maroon;
+
+		}
+
+		.sol{
+			position: absolute;
+			top: 90vh;
+			width: 100vw;
+			min-height:7vh;
+			background-color: gray;
+
+			clip-path: polygon(25.5% 0, 75% 0, 100% 100%, 0 100%);
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="fenetre"></div>
+		<div class="table"></div>
+		<div class="bar"></div>
+		<div class="sol"></div>
+	</div>
+
+</body>
+</html>
